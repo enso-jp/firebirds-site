@@ -621,16 +621,26 @@ export default function App() {
           <a href="tel:+84905241595">+84 905 241 595</a>
           <div className="footer-socials">
             <a
-              href="https://www.instagram.com/firebirdscocktail/"
+              href={venues[0].instagram}
               target="_blank"
               rel="noreferrer"
+              aria-label="Tropical Origin Instagram"
             >
-              <InstagramIcon /> Instagram
+              <InstagramIcon /> Tropical Origin
+            </a>
+            <a
+              href={venues[1].instagram}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Vietnam Craft Instagram"
+            >
+              <InstagramIcon /> Vietnam Craft
             </a>
             <a
               href={venues[0].facebook}
               target="_blank"
               rel="noreferrer"
+              aria-label="Tropical Origin Facebook"
             >
               <FacebookIcon /> Tropical Origin
             </a>
@@ -638,6 +648,7 @@ export default function App() {
               href={venues[1].facebook}
               target="_blank"
               rel="noreferrer"
+              aria-label="Vietnam Craft Facebook"
             >
               <FacebookIcon /> Vietnam Craft
             </a>

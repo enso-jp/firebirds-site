@@ -18,6 +18,7 @@ export interface VenueContent {
   image: string
   link: string
   facebook: string
+  instagram: string
   experience: string
   tone: "coral" | "gold"
   address: string
@@ -124,6 +125,14 @@ export interface SiteCopy {
 
 const TROPICAL_MAP_LINK = "https://share.google/Ppgwmcre6G583Irjb"
 const CRAFT_MAP_LINK = "https://share.google/Hb9ooPZBY0onG1ihP"
+const TROPICAL_INSTAGRAM =
+  "https://www.instagram.com/firebirds.cocktailandmore?dlrf=dnl1NWx1bWJhbnQy"
+const CRAFT_INSTAGRAM =
+  "https://www.instagram.com/firebirds.vncraft?dlrf=dG1xbzU5YjZrZW9q"
+const TROPICAL_FACEBOOK =
+  "https://www.facebook.com/share/18Xe6x1dnr/?mibextid=wwXIfr"
+const CRAFT_FACEBOOK =
+  "https://www.facebook.com/share/17yMpTt1XC/?mibextid=wwXIfr"
 
 export const translations: Record<Locale, SiteCopy> = {
   en: {
@@ -224,7 +233,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "Our first fire, a short walk from My Khe Beach. A green, unruly living room built from an old apothecary cabinet, found chairs, and things we carried home. The drinks run bright and tropical. The nights tend to run late.",
         image: "/images/firebirds-original.jpg",
         link: TROPICAL_MAP_LINK,
-        facebook: "https://www.facebook.com/Firebirds.CocktailandMore",
+        facebook: TROPICAL_FACEBOOK,
+        instagram: TROPICAL_INSTAGRAM,
         experience: "Tropical · Loose · Full of stories",
         tone: "coral",
         address: "2D Mỹ Khê 7 · Sơn Trà · Đà Nẵng",
@@ -238,7 +248,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "The quieter sibling tucked down Alley 27 Thai Phien. Here we look harder at Vietnam: its wild fruit, market herbs, bitter edges, and old street flavours, then distill what we find into a glass.",
         image: "/images/vietnam-cocktail.jpg",
         link: CRAFT_MAP_LINK,
-        facebook: "https://www.facebook.com/FirebirdsVietnameseCraftCocktail",
+        facebook: CRAFT_FACEBOOK,
+        instagram: CRAFT_INSTAGRAM,
         experience: "Vietnamese · Thoughtful · Close to the bone",
         tone: "gold",
         address: "27/1 Thái Phiên · Hải Châu · Đà Nẵng",
@@ -445,7 +456,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "Ngọn lửa đầu tiên của tụi mình, cách biển Mỹ Khê vài bước chân. Một phòng khách xanh mát, phóng khoáng dựng nên từ tủ thuốc gỗ xưa, ghế cũ và bao kỷ vật mang về. Rượu đậm vị nhiệt đới, còn đêm thì thường kéo dài.",
         image: "/images/firebirds-original.jpg",
         link: TROPICAL_MAP_LINK,
-        facebook: "https://www.facebook.com/Firebirds.CocktailandMore",
+        facebook: TROPICAL_FACEBOOK,
+        instagram: TROPICAL_INSTAGRAM,
         experience: "Nhiệt đới · Phóng khoáng · Đầy ắp chuyện kể",
         tone: "coral",
         address: "2D Mỹ Khê 7 · Sơn Trà · Đà Nẵng",
@@ -459,7 +471,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "Người em trầm tĩnh hơn nằm trong con hẻm 27 Thái Phiên. Ở đây tụi mình đi sâu vào nguyên liệu Việt: trái rừng, thảo mộc chợ quê, vị đắng thanh và ký ức phố thị, rồi chưng cất tất cả vào trong một chiếc ly.",
         image: "/images/vietnam-cocktail.jpg",
         link: CRAFT_MAP_LINK,
-        facebook: "https://www.facebook.com/FirebirdsVietnameseCraftCocktail",
+        facebook: CRAFT_FACEBOOK,
+        instagram: CRAFT_INSTAGRAM,
         experience: "Đậm chất Việt · Sâu sắc · Chạm tới cốt lõi",
         tone: "gold",
         address: "27/1 Thái Phiên · Hải Châu · Đà Nẵng",
@@ -666,7 +679,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "ミーケビーチから歩いてすぐ、私たちの最初の炎。古い薬箪笥や見つけてきた椅子、故郷へ持ち帰った品々で作られた緑豊かなリビングルーム。トロピカルな一杯とともに、夜はゆっくりと更けていきます。",
         image: "/images/firebirds-original.jpg",
         link: TROPICAL_MAP_LINK,
-        facebook: "https://www.facebook.com/Firebirds.CocktailandMore",
+        facebook: TROPICAL_FACEBOOK,
+        instagram: TROPICAL_INSTAGRAM,
         experience: "トロピカル · 自由気まま · 物語に満ちた空間",
         tone: "coral",
         address: "2D Mỹ Khê 7 · Sơn Trà · Đà Nẵng",
@@ -680,7 +694,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "タイフィエン通り27番の路地裏に佇む、少し静かな弟分。ここではベトナムの果実、市場のハーブ、ほろ苦い根や懐かしい街角の風味をより深く見つめ、グラスの中へと昇華させています。",
         image: "/images/vietnam-cocktail.jpg",
         link: CRAFT_MAP_LINK,
-        facebook: "https://www.facebook.com/FirebirdsVietnameseCraftCocktail",
+        facebook: CRAFT_FACEBOOK,
+        instagram: CRAFT_INSTAGRAM,
         experience: "ベトナムの風土 · 思慮深い · 核心に迫る一杯",
         tone: "gold",
         address: "27/1 Thái Phiên · Hải Châu · Đà Nẵng",
@@ -887,7 +902,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "미케 해변에서 걸어서 금방 닿는 우리의 첫 번째 불꽃. 오래된 한약장과 수집한 빈티지 의자, 집으로 가져온 추억의 물건들로 지은 푸르고 자유분방한 거실입니다. 열대의 풍미가 가득한 칵테일과 함께 밤이 깊어갑니다.",
         image: "/images/firebirds-original.jpg",
         link: TROPICAL_MAP_LINK,
-        facebook: "https://www.facebook.com/Firebirds.CocktailandMore",
+        facebook: TROPICAL_FACEBOOK,
+        instagram: TROPICAL_INSTAGRAM,
         experience: "트로피컬 · 자유로운 무드 · 이야기가 가득한 밤",
         tone: "coral",
         address: "2D Mỹ Khê 7 · Sơn Trà · Đà Nẵng",
@@ -901,7 +917,8 @@ export const translations: Record<Locale, SiteCopy> = {
           "타이피엔 27번지 골목 안쪽에 자리한 조금 더 차분한 동생 같은 공간. 이곳에서 우리는 베트남의 야생 과일, 시장 허브, 쌉싸름한 여운과 오래된 거리의 맛을 깊이 파고들어 한 잔의 글라스에 담아냅니다.",
         image: "/images/vietnam-cocktail.jpg",
         link: CRAFT_MAP_LINK,
-        facebook: "https://www.facebook.com/FirebirdsVietnameseCraftCocktail",
+        facebook: CRAFT_FACEBOOK,
+        instagram: CRAFT_INSTAGRAM,
         experience: "베트남 로컬 · 깊이 있는 탐구 · 본질에 가까운 맛",
         tone: "gold",
         address: "27/1 Thái Phiên · Hải Châu · Đà Nẵng",
