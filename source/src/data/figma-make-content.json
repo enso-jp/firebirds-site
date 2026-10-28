@@ -1,0 +1,167 @@
+{
+ "preview_base": "https://37cf0d0d-b00d-45b6-9d51-0631cbdc7de6-figmacachedpreview.figma.site",
+ "note": "Figma preview iframe content is auth gated (HTTP 401 outside the Figma iframe), so image files could not be downloaded to figma-assets; image paths below are relative to preview_base.",
+ "routes": {
+  "/": {
+   "anchors": [
+    "#top",
+    "#venues",
+    "#story",
+    "#craft",
+    "#visit",
+    "#tropical-origin",
+    "#vietnam-craft"
+   ],
+   "links": [
+    {
+     "text": "FIND THIS ROOM (Tropical Origin, and address block)",
+     "href": "https://share.google/PBuyzr0SoPHqHJs8V"
+    },
+    {
+     "text": "FIND THIS ROOM (Vietnam Craft, and address block)",
+     "href": "https://share.google/w4QHyot2234SbIWrJ"
+    },
+    {
+     "text": "+84 905 241 595",
+     "href": "tel:+84905241595"
+    },
+    {
+     "text": "INSTAGRAM",
+     "href": "https://www.instagram.com/firebirdscocktail/"
+    }
+   ],
+   "buttons": [
+    "READ ITS STORY (to /stories/tropical-origin)",
+    "READ ITS STORY (to /stories/vietnam-craft)"
+   ],
+   "images": [
+    "/images/firebirds-original.jpg",
+    "/images/firebirds-original.jpg",
+    "/images/vietnam-cocktail.jpg",
+    "/images/firebirds-founders.jpg",
+    "/images/bar-craft.jpg",
+    "/images/firebirds-logo.png"
+   ],
+   "text_top_to_bottom": [
+    "FIREBIRDS | COCKTAIL & MORE | ĐN | VN",
+    "HERO: WE WENT FAR. WE CAME HOME THIRSTY.",
+    "H1: One spirit. Two ways home.",
+    "Firebirds began with the things we missed while we were away: loud nights, honest drinks, the smell of rain on a hot road. That same spirit now lives in two very different rooms.",
+    "Card: THE OLD SOUL · SƠN TRÀ | Tropical Origin | TROPICAL · LOOSE · FULL OF STORIES",
+    "Card: THE NEW ROAD · ĐÀ NẴNG | Vietnam Craft Cocktail | VIETNAMESE · THOUGHTFUL · CLOSE TO THE BONE",
+    "SAME FIRE, TWO ROOMS",
+    "PICK THE NIGHT YOU NEED",
+    "H2: The spirit is the same. The road there is not.",
+    "We have no interest in opening the same bar twice. One place is wild around the edges. The other sits still and listens. Swipe through, then trust your mood.",
+    "Venue 1: TROPICAL ORIGIN | THE OLD SOUL · SƠN TRÀ | TROPICAL · LOOSE · FULL OF STORIES | Tropical Origin. Our first fire. A green, unruly room built from old cabinets, found chairs and things we carried home. The drinks run tropical. The nights tend to run late. [FIND THIS ROOM] [READ ITS STORY]",
+    "Venue 2: VIETNAM CRAFT COCKTAIL | THE NEW ROAD · ĐÀ NẴNG | VIETNAMESE · THOUGHTFUL · CLOSE TO THE BONE | Vietnam Craft Cocktail. The quieter sibling. Here we look harder at Vietnam, its fruit, herbs, bitter edges and old flavours, then put what we find into a glass. [FIND THIS ROOM] [READ ITS STORY]",
+    "Story: Tropical Origin | WELCOME HOME | FB | HOW IT BEGAN",
+    "H2: NO GRAND PLAN. JUST A PULL HOME.",
+    "H3: We saw enough of away. Home kept calling.",
+    "We left Vietnam to make a living. We crossed a few borders, worked a few jobs, drank in beautiful rooms and forgettable ones. After a while, you learn that polished is not the same thing as alive.",
+    "So we came back. The first Firebirds grew from an old medicine cabinet, retro chairs, furniture made by hand and whatever honest objects we found along the road. Nothing matched. Somehow, it all belonged.",
+    "Quote: You go far enough, you stop looking for new. You start looking for true.",
+    "IN EVERY GLASS",
+    "H2: LESS PERFORMANCE. MORE FLAVOUR.",
+    "H3: Vietnam is not our theme. It is what we know.",
+    "We start nearby: fruit in season, herbs from the market, bitter roots, smoke, salt and things that wake an old memory. Technique matters. But if a drink needs a speech before it tastes good, we have probably gone too far.",
+    "List: What grows here, while it is good | Good hands, no unnecessary theatre | A proper welcome, every time",
+    "Stay for one. Leave after several.",
+    "Marquee: FIREBIRDS · ĐÀ NẴNG · VIETNAM · COCKTAIL & MORE · (repeated)",
+    "COME FIND US",
+    "H2: One spirit. Which road tonight?",
+    "Tropical Origin | 2D MỸ KHÊ 7 · SƠN TRÀ · ĐÀ NẴNG",
+    "Vietnam Craft Cocktail | ĐÀ NẴNG · VIETNAM",
+    "H3: One spirit. Two ways home.",
+    "RESERVATIONS & ENQUIRIES | +84 905 241 595 | INSTAGRAM",
+    "Footer: © 2026 FIREBIRDS COCKTAIL & MORE | MADE WITH LOVE IN ĐÀ NẴNG"
+   ]
+  },
+  "/stories/tropical-origin": {
+   "title": "The Cabinet That Waited",
+   "kicker": "TROPICAL ORIGIN",
+   "subtitle": "VIETNAM, BEFORE EVERYTHING BECAME NEW",
+   "images": [
+    "/images/firebirds-original.jpg",
+    "/images/firebirds-founders.jpg"
+   ],
+   "links": [
+    {
+     "text": "ENOUGH READING / Open this branch in Maps",
+     "href": "https://share.google/PBuyzr0SoPHqHJs8V"
+    }
+   ],
+   "sections": [
+    {
+     "label": "THE THOUGHT BEHIND THE ROOM",
+     "body": "Some places are designed on a screen. This one began with an old medicine cabinet that had already lived a life before us."
+    },
+    {
+     "label": "FOUND AND MADE IN VIETNAM",
+     "heading": "The things that stayed",
+     "body": "We remembered the Vietnam we grew up around: bent metal chairs, dark timber, tiled floors cooled by the rain, thermos flasks on a family table. Ordinary things. Good things. Abroad, we began to miss them with an ache that surprised us."
+    },
+    {
+     "heading": "Nothing matched",
+     "body": "When we came home, we collected slowly. A cabinet from here. A chair from there. Some pieces were repaired; others were made by our own hands. We did not want a museum, and we certainly did not want nostalgia polished until it lost its fingerprints."
+    },
+    {
+     "heading": "The room found its rhythm",
+     "body": "Then came tropical leaves, cold glasses, old songs and people leaning across the bar to talk. The room loosened up. What began as a collection of memories became a place for making new ones."
+    },
+    {
+     "quote": "Old Vietnam was never quiet. It had colour, stubbornness and a good deal of soul."
+    },
+    {
+     "label": "ONE SPIRIT, ANOTHER ROAD",
+     "heading": "Keep going, or come find the room.",
+     "cta": "READ THE OTHER STORY: The alley after rain (to /stories/vietnam-craft)"
+    }
+   ],
+   "header": "FIREBIRDS COCKTAIL & MORE | BACK TO BOTH BRANCHES"
+  },
+  "/stories/vietnam-craft": {
+   "title": "The Alley After Rain",
+   "kicker": "VIETNAM CRAFT COCKTAIL",
+   "subtitle": "VIETNAM STREET CRAFT, WITH THE VOLUME LEFT ON",
+   "images": [
+    "/images/vietnam-cocktail.jpg",
+    "/images/bar-craft.jpg"
+   ],
+   "links": [
+    {
+     "text": "ENOUGH READING / Open this branch in Maps",
+     "href": "https://share.google/w4QHyot2234SbIWrJ"
+    }
+   ],
+   "sections": [
+    {
+     "label": "THE THOUGHT BEHIND THE ROOM",
+     "body": "The second Firebirds came from the street: practical, improvised and a little strange in exactly the right way."
+    },
+    {
+     "label": "FOUND AND MADE IN VIETNAM",
+     "heading": "Look down the alley",
+     "body": "Vietnamese streets know how to make use of everything. A plastic stool becomes a dining room. A toolbox becomes a counter. Soda crates, hand-painted signs, motorbike mirrors and fluorescent tubes somehow make a whole world after dark."
+    },
+    {
+     "heading": "Craft without the costume",
+     "body": "That resourcefulness is our kind of craft. Not precious. Not hidden behind a speech. We take local fruit, market herbs, roots, smoke and salt, then work them hard enough to reveal something familiar, and odd enough to make you look twice."
+    },
+    {
+     "heading": "Keep it a little funky",
+     "body": "Old-school does not have to mean serious. We left room for loud colour, crooked humour and the happy accident. The result is more street workshop than cocktail temple. Come as you are. Curiosity is enough."
+    },
+    {
+     "quote": "The street never asked permission to be beautiful. It simply got on with the job."
+    },
+    {
+     "label": "ONE SPIRIT, ANOTHER ROAD",
+     "heading": "Keep going, or come find the room.",
+     "cta": "READ THE OTHER STORY: The cabinet that waited (to /stories/tropical-origin)"
+    }
+   ],
+   "header": "FIREBIRDS COCKTAIL & MORE | BACK TO BOTH BRANCHES"
+  }
+ }
+}
