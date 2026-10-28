@@ -28,6 +28,7 @@ export interface StoryContent {
   subtitle: string
   hero: string
   detail: string
+  detailAlt: string
   detailCaption: string
   tone: "retro" | "street"
   leadLabel: string
@@ -176,7 +177,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "You go far enough, you stop looking for new. You start looking for true.",
     },
     manifesto: {
-      imageAlt: "A bartender pouring a craft cocktail in an intimate Vietnamese bar",
+      imageAlt: "Vietnamese craft spirits including Nhau Rice Vodka, Song Cai Floral Gin, Lady Trieu Gin, and Lang alongside finished cocktails on the terrazzo bar",
       sectionNumber: "In every glass",
       kicker: "Less performance. More flavour.",
       title1: "Vietnam is not our theme.",
@@ -249,6 +250,7 @@ export const translations: Record<Locale, SiteCopy> = {
         subtitle: "Vietnam, before everything became new",
         hero: "/images/firebirds-original.jpg",
         detail: "/images/firebirds-founders.jpg",
+        detailAlt: "The founders behind the bar at Firebirds Tropical Origin in Da Nang",
         detailCaption: "Found and made in Vietnam",
         tone: "retro",
         leadLabel: "The thought behind the room",
@@ -297,7 +299,8 @@ export const translations: Record<Locale, SiteCopy> = {
         title: "The alley after rain",
         subtitle: "Vietnam street craft, with the volume left on",
         hero: "/images/vietnam-cocktail.jpg",
-        detail: "/images/bar-craft.jpg",
+        detail: "/images/gallery/vc-04.jpg",
+        detailAlt: "White veined marble bar counter, warm chandelier, and crimson neon under-glow inside Firebirds Vietnam Craft Cocktail",
         detailCaption: "Distilled from the street",
         tone: "street",
         leadLabel: "The thought behind the room",
@@ -395,7 +398,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "Đi đủ xa, người ta thôi tìm cái mới lạ. Người ta bắt đầu tìm về cái chân thật.",
     },
     manifesto: {
-      imageAlt: "Bartender đang chăm chút từng ly cocktail thủ công",
+      imageAlt: "Những chai rượu thủ công Việt Nam như Nhậu, Sông Cái, Lady Triệu và Làng đặt cạnh những ly cocktail hoàn thiện trên mặt quầy đá mài ấm áp",
       sectionNumber: "Trong từng chiếc ly",
       kicker: "Bớt trình diễn. Thêm hương vị.",
       title1: "Việt Nam không phải chủ đề.",
@@ -468,6 +471,7 @@ export const translations: Record<Locale, SiteCopy> = {
         subtitle: "Việt Nam của những ngày chưa kịp cũ",
         hero: "/images/firebirds-original.jpg",
         detail: "/images/firebirds-founders.jpg",
+        detailAlt: "Những người sáng lập phía sau quầy bar tại Firebirds Tropical Origin Đà Nẵng",
         detailCaption: "Tìm thấy và làm bằng tay tại Việt Nam",
         tone: "retro",
         leadLabel: "Khởi nguồn của căn phòng",
@@ -516,7 +520,8 @@ export const translations: Record<Locale, SiteCopy> = {
         title: "Con hẻm nhỏ sau cơn mưa",
         subtitle: "Nghề thủ công đường phố Việt, giữ nguyên nhịp đập",
         hero: "/images/vietnam-cocktail.jpg",
-        detail: "/images/bar-craft.jpg",
+        detail: "/images/gallery/vc-04.jpg",
+        detailAlt: "Quầy bar đá cẩm thạch trắng, đèn chùm ấm áp và ánh đèn neon đỏ dưới chân quầy tại Firebirds Vietnam Craft Cocktail",
         detailCaption: "Chưng cất từ hơi thở đường phố",
         tone: "street",
         leadLabel: "Khởi nguồn của căn phòng",
@@ -614,7 +619,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "十分に遠くまで行けば、目新しいものを探すのをやめる。本当に大切なものを探し始めるのだ。",
     },
     manifesto: {
-      imageAlt: "ベトナムのバーで丁寧にカクテルを注ぐバーテンダー",
+      imageAlt: "テラゾーカウンターに並ぶNhauやSong Cai、Lady Trieu、Langなどのベトナム産クラフトスピリッツとカクテル",
       sectionNumber: "すべてのグラスに",
       kicker: "演出は控えめに。味わいを深く。",
       title1: "ベトナムはテーマではない。",
@@ -687,6 +692,7 @@ export const translations: Record<Locale, SiteCopy> = {
         subtitle: "すべてが新しくなる前のベトナム",
         hero: "/images/firebirds-original.jpg",
         detail: "/images/firebirds-founders.jpg",
+        detailAlt: "ダナンのFirebirds Tropical Originのカウンターに立つ創業者たち",
         detailCaption: "ベトナムで見つけ、手で作られたもの",
         tone: "retro",
         leadLabel: "この部屋に込めた想い",
@@ -735,7 +741,8 @@ export const translations: Record<Locale, SiteCopy> = {
         title: "雨上がりの路地裏で",
         subtitle: "ボリュームを下げない、ベトナムのストリートクラフト",
         hero: "/images/vietnam-cocktail.jpg",
-        detail: "/images/bar-craft.jpg",
+        detail: "/images/gallery/vc-04.jpg",
+        detailAlt: "白い大理石のカウンターとシャンデリア、赤いネオンのアンダーライトが輝くFirebirds Vietnam Craft Cocktailの店内",
         detailCaption: "路地の息遣いを蒸留する",
         tone: "street",
         leadLabel: "この部屋に込めた想い",
@@ -833,7 +840,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "충분히 멀리 가본 사람은 더 이상 새로운 것을 찾지 않는다. 진짜를 찾기 시작한다.",
     },
     manifesto: {
-      imageAlt: "아늑한 베트남 바에서 정성껏 칵테일을 만드는 바텐더",
+      imageAlt: "테라조 바 카운터 위에 놓인 냐우(Nhau), 송카이(Song Cai), 레이디 찌에우(Lady Trieu), 랑(Lang) 등 베트남 크래프트 스피릿과 칵테일",
       sectionNumber: "모든 잔 속에 담긴 것",
       kicker: "보여주기식 퍼포먼스는 줄이고, 풍미는 깊게.",
       title1: "베트남은 우리의 컨셉이 아닙니다.",
@@ -906,6 +913,7 @@ export const translations: Record<Locale, SiteCopy> = {
         subtitle: "모든 것이 새로워지기 전의 베트남",
         hero: "/images/firebirds-original.jpg",
         detail: "/images/firebirds-founders.jpg",
+        detailAlt: "다낭 Firebirds Tropical Origin 바 카운터 뒤의 창업자들",
         detailCaption: "베트남에서 찾고 손으로 직접 만든 공간",
         tone: "retro",
         leadLabel: "이 공간에 담긴 생각",
@@ -954,7 +962,8 @@ export const translations: Record<Locale, SiteCopy> = {
         title: "비 개인 뒤의 골목길",
         subtitle: "볼륨을 줄이지 않은 베트남 스트리트 크래프트",
         hero: "/images/vietnam-cocktail.jpg",
-        detail: "/images/bar-craft.jpg",
+        detail: "/images/gallery/vc-04.jpg",
+        detailAlt: "하얀 마블 바 카운터와 샹들리에, 붉은 네온 언더글로우가 어우러진 Firebirds Vietnam Craft Cocktail 내부",
         detailCaption: "거리의 숨결을 증류하다",
         tone: "street",
         leadLabel: "이 공간에 담긴 생각",
