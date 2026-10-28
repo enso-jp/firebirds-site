@@ -164,7 +164,7 @@ function StoryPage({
           <div className="story-detail-image">
             <img
               src={story.detail}
-              alt={`Details that inspired ${venue.name}`}
+              alt={story.detailAlt}
             />
             <span>{story.detailCaption}</span>
           </div>
