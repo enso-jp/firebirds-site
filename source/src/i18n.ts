@@ -177,7 +177,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "You go far enough, you stop looking for new. You start looking for true.",
     },
     manifesto: {
-      imageAlt: "Vietnamese craft spirits including Nhau Rice Vodka, Song Cai Floral Gin, Lady Trieu Gin, and Lang alongside finished cocktails on the terrazzo bar",
+      imageAlt: "Warm chandelier-lit Firebirds room with guests gathered around the glowing terrazzo bar and bartenders crafting drinks",
       sectionNumber: "In every glass",
       kicker: "Less performance. More flavour.",
       title1: "Vietnam is not our theme.",
@@ -398,7 +398,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "Đi đủ xa, người ta thôi tìm cái mới lạ. Người ta bắt đầu tìm về cái chân thật.",
     },
     manifesto: {
-      imageAlt: "Những chai rượu thủ công Việt Nam như Nhậu, Sông Cái, Lady Triệu và Làng đặt cạnh những ly cocktail hoàn thiện trên mặt quầy đá mài ấm áp",
+      imageAlt: "Không gian ấm áp dưới ánh đèn chùm tại Firebirds với khách quây quần bên quầy bar đá mài và các bartender đang pha chế",
       sectionNumber: "Trong từng chiếc ly",
       kicker: "Bớt trình diễn. Thêm hương vị.",
       title1: "Việt Nam không phải chủ đề.",
@@ -619,7 +619,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "十分に遠くまで行けば、目新しいものを探すのをやめる。本当に大切なものを探し始めるのだ。",
     },
     manifesto: {
-      imageAlt: "テラゾーカウンターに並ぶNhauやSong Cai、Lady Trieu、Langなどのベトナム産クラフトスピリッツとカクテル",
+      imageAlt: "温かなシャンデリアの灯りの下、輝くテラゾーカウンターを囲むゲストとカクテルを作るバーテンダーたち",
       sectionNumber: "すべてのグラスに",
       kicker: "演出は控えめに。味わいを深く。",
       title1: "ベトナムはテーマではない。",
@@ -840,7 +840,7 @@ export const translations: Record<Locale, SiteCopy> = {
         "충분히 멀리 가본 사람은 더 이상 새로운 것을 찾지 않는다. 진짜를 찾기 시작한다.",
     },
     manifesto: {
-      imageAlt: "테라조 바 카운터 위에 놓인 냐우(Nhau), 송카이(Song Cai), 레이디 찌에우(Lady Trieu), 랑(Lang) 등 베트남 크래프트 스피릿과 칵테일",
+      imageAlt: "따뜻한 샹들리에 조명 아래 빛나는 테라조 바 카운터에 모인 손님들과 칵테일을 만드는 바텐더들",
       sectionNumber: "모든 잔 속에 담긴 것",
       kicker: "보여주기식 퍼포먼스는 줄이고, 풍미는 깊게.",
       title1: "베트남은 우리의 컨셉이 아닙니다.",
